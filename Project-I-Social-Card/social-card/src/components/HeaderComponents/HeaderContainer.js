@@ -7,9 +7,14 @@ import ImageThumbnail from './ImageThumbnail'
 function HeaderContainer() {
     return (
     <header class="HeaderContainer">
-        <ImageThumbnail />
-        <HeaderTitle />
-        <HeaderContent />
+        <div class="HeaderImage">
+            <ImageThumbnail />
+        </div>
+        <div class="HeaderText">
+            <HeaderTitle />
+            <HeaderContent />
+        </div>
+
     </header>
     )
 }
