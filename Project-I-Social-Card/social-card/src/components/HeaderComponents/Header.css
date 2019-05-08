@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    width: 700px;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+}
