@@ -7,14 +7,15 @@
     align-items: flex-end;
     justify-content: left;
     margin: 0 10px;
+    border: 1px solid purple;
 }
 
 .CardImage {
-    width: 600px;
-    height: 300px;
+    width: 520px;
+    height: 250px;
     border-radius: 10px;
 }
 
 .CardContent {
-    width: 80%;
+    width: 90%;
 }
