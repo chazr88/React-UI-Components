@@ -68,6 +68,9 @@ const Clear = {
 	display: 'Clear'
 }
 
+const Display = {
+	defaultDisplay: 0
+}
 
 
 
@@ -76,7 +79,7 @@ const App = () => {
     <div className="container">
 		<div className='calculator'>
 			<div>
-				<CalculatorDisplay displayStyle="display"/>
+				<CalculatorDisplay displayStyle="display" output={Display}></CalculatorDisplay>
 			</div>
 			<div>
 				<NumberButton buttonStyle="long-white" button={Clear}/> 

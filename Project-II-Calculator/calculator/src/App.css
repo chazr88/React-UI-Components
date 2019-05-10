@@ -1,5 +1,10 @@
 .container {
+    margin: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.calculator {
+    border: 5px solid #000;
 }
